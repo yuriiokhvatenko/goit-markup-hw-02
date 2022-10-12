@@ -1,0 +1,56 @@
+/* working palette */
+/* primary text color #212121 */
+/* secondary text color #757575 */
+/* background color footer and hero #2F303A */
+/* background color team #F5F4FA */
+/* accent color #2196F3 */
+
+:root {
+    --primary-bcg-color: #ffffff;
+    --primary-text-color: #212121; 
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-footer-color: #2F303A; 
+    --bcg-color-team: #F5F4FA;
+}
+
+.header {
+    background-color: var(--primary-bcg-color);
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--primary-text-color);
+}
+.nav-list .link {
+    color: var(--primary-text-color);
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+.title .title-contact {
+    color: var(--secondary-text-color);
+}
+.title .title-contact:hover,
+.title .title-contact:focus {
+    color: var(--accent-color);
+}
+
+.hero .hero-title {
+color: var(--primary-bcg-color);
+}
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--primary-bcg-color);
+}
+.section .low-title {
+    color: var(--primary-text-color);    
+}
+.section .section-title {
+    color: var(--primary-text-color);
+}
+.section .section-text {
+    color: var(--secondary-text-color);
+}
