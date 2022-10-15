@@ -13,6 +13,9 @@
     --hero-footer-color: #2F303A; 
     --bcg-color-team: #F5F4FA;
 }
+body {
+    background-color: var(--primary-bcg-color);
+}
 
 .header {
     background-color: var(--primary-bcg-color);
@@ -45,6 +48,9 @@ color: var(--primary-bcg-color);
     background-color: var(--accent-color);
     color: var(--primary-bcg-color);
 }
+.section {
+    background-color: #fff;
+}
 .section .low-title {
     color: var(--primary-text-color);    
 }
@@ -53,4 +59,17 @@ color: var(--primary-bcg-color);
 }
 .section .section-text {
     color: var(--secondary-text-color);
+}
+.section.our-team {
+    background-color: var(--bcg-color-team);
+}
+.specialty {
+    color: var(--secondary-text-color);
+}
+.footer {
+    background-color: var(--primary-bcg-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+color: var(--accent-color);
 }
