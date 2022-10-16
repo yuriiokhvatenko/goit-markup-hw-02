@@ -99,6 +99,15 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+.btn-hero {
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
 /* Features */
 .features-title {
   font-weight: 700;
